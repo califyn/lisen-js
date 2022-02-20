@@ -46,7 +46,7 @@ export default function process () {
 
                 mediaRecorder.ondataavailable = function(e) {
                     var oReq = new XMLHttpRequest();
-                    oReq.open("POST", "http://147.182.202.123/result", true);
+                    oReq.open("POST", "https://147.182.202.123:80/query-example", true);
 
                     oReq.onload = function () {
                         if (oReq.readyState === oReq.DONE) {
