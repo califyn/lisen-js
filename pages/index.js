@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
-import process from './func.js'
+import process from './api/func.js'
 
 import bland from '../public/white.webp'
 import micOn from '../public/mic.svg'
